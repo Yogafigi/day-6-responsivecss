@@ -55,7 +55,7 @@ const testimonial2 = new AuthorTestimonial(
   "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
 );
 
-const testimonial3 = new AuthorTestimonial(
+const testimonial3 = new CompanyTestimonial(
   "Bagas adi",
   "Teman ku baik",
   "https://images.unsplash.com/photo-1615109398623-88346a601842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"

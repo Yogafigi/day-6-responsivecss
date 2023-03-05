@@ -418,19 +418,21 @@ i,
 
 .wrap-project .card-project .btn-card {
   padding-right: 10px;
-  margin-bottom: 20px;
+
+  margin: 0 40px 20px 40px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
 }
 
 .wrap-project .card-project .btn-card a {
   text-decoration: none;
   color: #fff;
   background-color: #111727;
-  padding: 2px 65px;
+  padding: 0 auto;
   border-radius: 8px;
   font-weight: 400;
+  width: 100px;
+  text-align: center;
 }
 
 /* Responsive Breakpoint */
@@ -529,7 +531,7 @@ i,
   }
 
   .wrap-project .card-project .btn-card a {
-    padding: 2px 35px;
+    margin-right: 10px;
   }
 }
 
@@ -570,6 +572,6 @@ i,
   }
 
   .wrap-project .card-project .btn-card a {
-    padding: 2px 33px;
+    margin-right: 10px;
   }
 }
