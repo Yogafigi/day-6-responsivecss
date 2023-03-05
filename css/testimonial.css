@@ -211,8 +211,6 @@ a:hover {
 }
 
 .rating-btn {
-  margin: 20px;
-  padding: 0px 20px;
   font-size: 20px;
   font-weight: bold;
   background-color: rgb(41, 12, 2);
@@ -324,14 +322,37 @@ a:hover {
 
   .testimonial {
     width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    width: 100%;
   }
 
   .container h1 {
-    padding-left: 60px;
+    text-align: center;
   }
 
-  .rating-btn {
-    width: 100%;
+  .container-rating {
+    margin: 0px auto 37px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-rating .rating {
+    margin: 0px auto 37px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    color: white;
+    padding: 9px;
+    cursor: pointer;
+    background-color: #111727;
+    margin: 5px;
+    border: none;
   }
 }
 
@@ -373,5 +394,28 @@ a:hover {
 
   .wrap-project .card-project .btn-card a {
     padding: 2px 33px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .container h1 {
+    text-align: center;
+  }
+
+  .container-rating {
+    margin: 0px auto 37px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    color: white;
+    padding: 9px;
+    cursor: pointer;
+    background-color: #111727;
+    margin: 5px;
+    border: none;
   }
 }

@@ -57,8 +57,8 @@ allTestimonials();
 function filterTestimonials(rating) {
   let testimonialHTML = "";
 
-  const testimonialFiltered = testimonialData.filter((item) => {
-    return item.rating === rating;
+  const testimonialFiltered = testimonialData.filter((z) => {
+    return z.rating === rating;
   });
 
   if (testimonialFiltered.length === 0) {
